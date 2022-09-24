@@ -1,0 +1,210 @@
+html {
+    scroll-behavior: smooth;
+    slider.setAttribute('disabled', true);
+    box-sizing: border-box;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+body
+{
+    
+    background-color: #283D3B;
+    font-family: 'Figtree', sans-serif;
+    color: #EDDDD4;
+    
+    background-image: url(prdelakozy.jpg);
+    background-repeat: no-repeat;
+/*    background-size: cover;*/
+    
+/*   overflow: hidden;*/
+}
+
+header, a
+{
+    position: fixed;
+    width:90%;
+    
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 5px;
+    
+    color: #EDDDD4;
+    font-weight: 500;
+    font-size: 18px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    
+    z-index: +999;
+
+}
+
+a
+{
+   color: #EDDDD4;
+    font-weight: 500;
+    font-size: 18px; 
+    position: relative;
+}
+
+nav
+{
+    padding-left: 140px;
+}
+
+hr
+{
+    color: #EDDDD4;
+    margin-bottom: 35px;
+}
+
+b
+{
+    font-size: 25px;
+}
+
+
+section
+{
+    margin-top: 0px;
+}
+
+c
+{
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+strong:hover
+{
+    cursor: grab;
+}
+
+
+.tldr
+{
+    display:flex;
+    margin: 115px 15%;
+    margin-top: 0x;
+    justify-content:space-between;
+    color:#197278;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 100px;
+}
+
+d
+{
+    font-size: 22px;
+    cursor:pointer;
+}
+
+.tldr div
+{
+    background-color: rgba(0, 0, 0, .4) ;
+    max-width: 30%;
+    padding: 25px;
+    float: none;
+    border-radius: 5px;
+}
+
+.tldr div:hover
+{
+    transition: 0.6s ease;
+    background-color: rgba(0, 0, 0, .6);
+    color:#EDDDD4;
+    padding: 50px;
+}
+
+div img
+{
+    width: 350px;
+    padding-left: 20px;
+}
+
+div p 
+{   
+    display:block;
+}
+
+div img
+{
+    width: 90%;
+}
+
+.brblal
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    
+    padding-top: 150px;
+}
+
+.brblal:hover
+{
+    transition: 1s ease;
+    opacity:0;
+}
+
+.kontejner
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.centered 
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    opacity: 1;
+    z-index: -5;
+}
+
+
+.parallax {
+  /* The image used */
+/*  background-image: url("img_parallax.jpg");*/
+
+  /* Set a specific height */
+  min-height: 1500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centrd
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 25px;
+}
+
+ ul
+{
+    text-align: center;
+    list-style: none;
+    font-size: 40px;
+}
+
+
